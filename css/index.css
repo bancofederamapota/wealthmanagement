@@ -122,6 +122,13 @@ and (min-width: 0){
   position: relative;
   margin-bottom: 20px;
 }
+@media screen and (max-width: 550px)
+and (min-width: 0){
+  .col-3{
+    width: 88%;
+    margin-bottom: 40px;
+  }
+}
 .col-2{
   position: relative;
   float: left;
